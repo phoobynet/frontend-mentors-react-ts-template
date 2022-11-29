@@ -4,19 +4,25 @@ Personal template which includes a bunch of stuff that I like to have when I sta
 
 ## Features
 
+- Vite
+- React
 - React Router DOM
 - TypeScript
 - TailwindCSS
 - ESLint
-- Prettier
-- JS Standard-ish (f**k semicolons)
+- Prettier - import order and Tailwind class ordering
+- JS Standard-ish (you don&apos;t need semicolons sheeple!)
 - `src` path is aliased as `@`.
 - Husky and lint-staged are installed
 
 ## Installation
 
+Install github CLI.
+
 ```bash
-npx degit TODO
+gh repo create my-repo --template phoobynet/frontend-mentors-react-ts-template --public
+
+npm i
 ```
 
 ## Usage

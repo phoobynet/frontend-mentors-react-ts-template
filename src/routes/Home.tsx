@@ -1,16 +1,15 @@
+import Whatever from '@/components/home/Whatever'
+
 export default function Home() {
   return (
-    <div>
+    <div className="container mx-auto mt-10 max-w-6xl">
       <header>
-        <h1 className="text-3xl font-bold tracking-wider">Home</h1>
+        <h1 className="text-3xl font-bold tracking-wider">
+          Frontend Mentors React Template
+        </h1>
       </header>
       <main>
-        <h2 className="text-2xl font-semibold">TODO List</h2>
-        <ul>
-          <li>
-            Change <code>index.html</code> <code>title</code> tag contents
-          </li>
-        </ul>
+        <Whatever />
       </main>
     </div>
   )
