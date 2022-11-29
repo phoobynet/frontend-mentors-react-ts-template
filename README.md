@@ -20,9 +20,13 @@ Personal template which includes a bunch of stuff that I like to have when I sta
 Install github CLI.
 
 ```bash
-gh repo create my-repo --template phoobynet/frontend-mentors-react-ts-template --public
+gh repo create my-repo --template phoobynet/frontend-mentors-react-ts-template --public --clone
+
+cd my-repo
 
 npm i
+
+npm run dev
 ```
 
 ## Usage
