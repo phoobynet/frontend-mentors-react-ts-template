@@ -9,6 +9,7 @@ Personal template which includes a bunch of stuff that I like to have when I sta
 - React Router DOM
 - TypeScript
 - TailwindCSS
+- SASS
 - ESLint
 - Prettier - import order and Tailwind class ordering
 - JS Standard-ish (you don&apos;t need semicolons sheeple!)

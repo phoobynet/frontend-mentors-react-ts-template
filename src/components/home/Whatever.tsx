@@ -1,12 +1,15 @@
+import styles from './Whatever.module.scss'
+
 export default function Whatever() {
   return (
     <div>
       <header>
-        <ul className="mt-10 list-disc pl-6 text-2xl">
+        <ul className={styles.whateverFeatureList}>
           <li>Vite</li>
           <li>React</li>
           <li>React Router DOM</li>
           <li>TypeScript</li>
+          <li>SASS</li>
           <li>ESLint</li>
           <li>Prettier - import order and Tailwind class ordering</li>
           <li>JS Standard-ish (you don&apos;t need semicolons sheeple!)</li>
@@ -17,11 +20,11 @@ export default function Whatever() {
         </ul>
       </header>
 
-      <main className="flex h-[250px] items-center justify-center">
+      <main className={styles.whateverMainContent}>
         <div
           role="heading"
           aria-level={1}
-          className="text-3xl font-bold tracking-wider"
+          className={styles.whateverRudeMessage}
         >
           Get to work!
         </div>
