@@ -1,4 +1,4 @@
-# Frontend Mentors Template
+# React TypeScript Template
 
 Personal template which includes a bunch of stuff that I like to have when I start a Frontend Mentors project.
 
@@ -21,7 +21,7 @@ Personal template which includes a bunch of stuff that I like to have when I sta
 Install github CLI.
 
 ```bash
-gh repo create my-repo --template phoobynet/frontend-mentors-react-ts-template --public --clone
+gh repo create my-repo --template phoobynet/react-ts --public --clone
 
 cd my-repo
 
