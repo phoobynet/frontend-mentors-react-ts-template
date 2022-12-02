@@ -1,7 +1,5 @@
 # React TypeScript Template
 
-Personal template which includes a bunch of stuff that I like to have when I start a Frontend Mentors project.
-
 ## Features
 
 - Vite
