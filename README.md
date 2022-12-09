@@ -10,6 +10,7 @@
 - SASS
 - ESLint
 - Prettier - import order and Tailwind class ordering
+- Stylelint
 - JS Standard-ish (you don&apos;t need semicolons sheeple!)
 - `src` path is aliased as `@`.
 - Husky and lint-staged are installed
